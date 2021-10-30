@@ -6,11 +6,11 @@
 
 The purpose of this analysis is to help a Colorado Elections Board employee to complete the election audit of a recent local congressional. The initial analysis required computation of the following key tasks:
 
-1. Calculate the total number of votes cast
-2. Create a complete list of candidates who received votes
-3. Calculate the number of votes each candidate received 
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+- Calculate the total number of votes cast
+- Create a complete list of candidates who received votes
+- Calculate the number of votes each candidate received 
+- Calculate the percentage of votes each candidate won.
+- Determine the winner of the election based on popular vote.
 
 # Resources
 - Data Source: election_results.csv
@@ -26,15 +26,15 @@ The election commission has requested some additional data to complete the audit
 
 ## Election Audit Results
 
-For this analysis, a Python code [([PyPoll_Challenge.py](/PyPoll_Challenge.py) was updated using for loops and conditional statements to find all the requested results. A for loop was used to get the list of counties from the dataset.  Then a decision statement was used to check if a county exists in the county list. If it did not exist, then began tracking the county. Conditiona statement was used to determine the winning county. 
+For this analysis, a Python code [PyPoll_Challenge.py](/PyPoll_Challenge.py) was updated using for loops and conditional statements to find all the requested results. A for loop was used to get the list of counties from the dataset.  Then a decision statement was used to check if a county exists in the county list. If it did not exist, then began tracking the county. Conditiona statement was used to determine the winning county. 
 
 The election results are printed on the Python terminal:
    
-![election_results_to_terminal.png](Resources/election_results_to_terminal.png)
+![election_results_to_terminal.PNG](Resources/election_results_to_terminal.PNG)
 
-The election results sent to an output file called ([election_analysis.txt](/election_analysis.txt):
+The election results sent to an output file called [election_analysis.txt](analysis/election_analysis.txt):
 
-![election_results_to_outputfile.png](Resources/election_results_to_outputfile.png)
+![election_results_to_outputfile.PNG](Resources/election_results_to_outputfile.PNG)
 
 The analysis of the election shows that:
 
